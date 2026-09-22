@@ -6,7 +6,7 @@ Website pembelajaran kreatif untuk mahasiswa multimedia yang berfokus pada penge
 
 - **Nama:** Alya Purwa Diva
 - **NIM:** 2407110
-- **Kelas:** 4A PMM
+- **Kelas:** 5A PMM
 
 ## Deskripsi Proyek
 
