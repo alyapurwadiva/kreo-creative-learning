@@ -1,133 +1,448 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
 
-    <link rel="stylesheet" href="style.css" />
-    <title>JedX Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
 
-    <!-- Icon Library -->
-    <script src="https://unpkg.com/feather-icons"></script>
-  </head>
-  <body>
-    <!-- Navbar Start-->
-    <nav class="navbar">
-      <a href="#" class="logo-navbar">Jed<span>X</span></a>
-      <div class="navbar-nav">
-        <a href="#">Beranda</a>
-        <a href="#about">Tentang</a>
-        <a href="#course">Kelas</a>
-        <a href="#contact">Kontak</a>
-      </div>
+  <title>KREO — Creative Learning Space</title>
 
-      <div class="navbar-extra">
-        <a href="#" id="search">
-          <i data-feather="search"></i>
-        </a>
-        <a id="hamburger-menu" href="#"><i data-feather="menu"></i></a>
-      </div>
-    </nav>
-    <!-- Header End -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
 
-    <!-- Main Start -->
-    <section class="hero" id="home">
-      <main class="content">
-        <h1>Belajar Lebih Mudah, Tumbuh Lebih Cepat</h1>
-        <p>Platform pembelajaran yang membantu kamu belajar dengan mudah, mengembangkan keterampilan, dan mencapai potensi terbaikmu.</p>
-        <a href="" class="cta">Gabung</a>
-      </main>
+<body>
 
-      <div class="hero-image">
-        <img src="/assets/hero.png" alt="" />
-      </div>
-    </section>
-    <!-- Main End -->
+  <!-- NAVBAR -->
+  <nav class="navbar">
 
-    <!-- About Section Start -->
-    <section class="about" id="about">
-      <h2>Tentang Kami</h2>
-      <div class="row">
-        <div class="about-img">
-          <img src="/assets/about.png" alt="" />
+    <a href="#home" class="logo-navbar">
+      KRE<span>O</span>
+    </a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#course">Classes</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search">
+        <i data-feather="search"></i>
+      </a>
+
+      <a href="#" id="hamburger-menu">
+        <i data-feather="menu"></i>
+      </a>
+    </div>
+
+  </nav>
+
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <p class="hero-label">
+        ✦ CREATIVE · LEARN · EXPLORE
+      </p>
+
+      <h1>
+        Temukan Versi Terbaik
+        <span>dari Kreativitasmu</span>
+      </h1>
+
+      <p class="hero-description">
+        Ruang belajar kreatif untuk mahasiswa multimedia
+        yang ingin mengeksplorasi fotografi, desain,
+        editing, dan berbagai bidang visual.
+      </p>
+
+      <a href="#course" class="cta">
+        Mulai Belajar
+        <span>→</span>
+      </a>
+
+    </div>
+
+
+    <div class="hero-image">
+
+      <img
+        src="assets/hero-fairy.png"
+        alt="Ilustrasi ruang belajar kreatif"
+      >
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+
+    <div class="about-image">
+
+      <img
+        src="assets/about-fairy.png"
+        alt="Ilustrasi mahasiswa kreatif"
+      >
+
+    </div>
+
+
+    <div class="about-content">
+
+      <p class="section-label">
+        ✦ TENTANG KREO
+      </p>
+
+      <h2>
+        Lebih dari sekadar belajar,
+        <span>ini tentang berkembang.</span>
+      </h2>
+
+      <p class="about-description">
+        KREO hadir sebagai ruang belajar kreatif untuk kamu
+        yang ingin mempelajari hal baru, meningkatkan
+        keterampilan, dan mengeksplorasi potensi diri
+        dalam dunia multimedia.
+      </p>
+
+
+      <div class="about-features">
+
+        <div class="feature-card">
+
+          <div class="feature-icon">
+            ★
+          </div>
+
+          <div>
+            <h3>Materi Lengkap</h3>
+
+            <p>
+              Materi belajar dari dasar
+              hingga tahap lanjutan.
+            </p>
+          </div>
+
         </div>
-        <div class="content">
-          <h3>Kenapa memilih JedX Learning Platform?</h3>
-          <p>
-            JedX Learning Platform adalah platform pembelajaran yang dirancang untuk membantu kamu belajar dengan lebih mudah, fleksibel, dan menyenangkan. Kami menyediakan berbagai kelas dan materi untuk menambah pengetahuan serta
-            mengembangkan keterampilan sesuai minat dan kebutuhanmu. Dengan pengalaman belajar yang sederhana dan mudah dipahami, JedX hadir untuk mendukung setiap langkahmu dalam berkembang dan mencapai potensi terbaik.
-          </p>
+
+
+        <div class="feature-card">
+
+          <div class="feature-icon">
+            ♥
+          </div>
+
+          <div>
+            <h3>Fleksibel</h3>
+
+            <p>
+              Belajar sesuai waktu
+              dan ritmemu sendiri.
+            </p>
+          </div>
+
         </div>
-      </div>
-    </section>
-    <!-- About Section End -->
 
-    <!-- Course Section Start -->
-    <section class="course" id="course">
-      <h2>Kelas yang tersedia</h2>
-      <p>Pilih kelas yang sesuai dengan minatmu dan kembangkan keterampilanmu bersama JedX.</p>
 
-      <div class="row" id="course-list"></div>
-    </section>
-    <!-- Course Section End -->
+        <div class="feature-card">
 
-    <!-- Contact Section Start -->
-    <section id="contact" class="contact">
-      <h2>Kontak Kami</h2>
-      <p>Pilih kelas yang sesuai dengan minatmu dan kembangkan keterampilanmu bersama JedX.</p>
-
-      <div class="row">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.585720336962!2d107.7222779402832!3d-6.940013493088898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c323777ca3a1%3A0x355eff6734ed9167!2sUniversitas%20Pendidikan%20Indonesia%20-%20Kampus%20UPI%20Cibiru!5e0!3m2!1sen!2sid!4v1787874858376!5m2!1sen!2sid"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin"
-          class="map"
-        ></iframe>
-
-        <form action="">
-          <div class="input-group">
-            <i data-feather="user"> </i>
-            <input type="text" placeholder="nama" />
-          </div>
-          <div class="input-group">
-            <i data-feather="mail"> </i>
-            <input type="text" placeholder="email" />
-          </div>
-          <div class="input-group">
-            <i data-feather="phone"> </i>
-            <input type="number" placeholder="nomor hp" />
+          <div class="feature-icon">
+            ✦
           </div>
 
-          <button type="submit" class="btn">Kirim pesan</button>
-        </form>
-      </div>
-    </section>
-    <!-- Contact Section End -->
+          <div>
+            <h3>Komunitas</h3>
 
-    <!-- Footer Section Start-->
-    <footer id="footer">
-      <div class="socials">
-        <a href="#"><i data-feather="instagram"></i></a>
-        <a href="#"><i data-feather="twitter"></i></a>
-      </div>
-      <div class="links">
-        <a href="#home">Beranda</a>
-        <a href="#about">Tentang</a>
-        <a href="#course">kelas</a>
-        <a href="#contact">Kontak</a>
-      </div>
-      <div>
-        <p>Created by <a href="">Mochamad Irfan Hidayat. | &copy;2026</a></p>
-      </div>
-    </footer>
-    <!-- Footer Section End-->
+            <p>
+              Berkembang bersama
+              teman-teman kreatif.
+            </p>
+          </div>
 
-    <script src="script.js"></script>
-  </body>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CLASSES -->
+  <section class="course" id="course">
+
+    <div class="course-heading">
+
+      <p class="section-label">
+        ✦ KELAS KAMI
+      </p>
+
+      <h2>
+        Pilih Kelas Sesuai Minatmu
+      </h2>
+
+      <p>
+        Eksplorasi berbagai bidang kreatif
+        dan temukan hal yang paling kamu sukai.
+      </p>
+
+    </div>
+
+
+    <div class="course-grid">
+
+
+      <!-- PHOTOGRAPHY -->
+      <div class="course-card">
+
+        <img
+          src="assets/photography.png"
+          alt="Photography"
+        >
+
+        <div class="course-overlay">
+
+          <div>
+
+            <span>PHOTOGRAPHY</span>
+
+            <h3>
+              Capture Your Story
+            </h3>
+
+            <p>
+              Pelajari komposisi, pencahayaan,
+              dan visual storytelling.
+            </p>
+
+          </div>
+
+          <a href="#">
+            →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- EDITING -->
+      <div class="course-card">
+
+        <img
+          src="assets/editing.png"
+          alt="Photo Editing"
+        >
+
+        <div class="course-overlay">
+
+          <div>
+
+            <span>PHOTO EDITING</span>
+
+            <h3>
+              Shape Your Vision
+            </h3>
+
+            <p>
+              Olah foto dan temukan
+              gaya visualmu sendiri.
+            </p>
+
+          </div>
+
+          <a href="#">
+            →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- DESIGN -->
+      <div class="course-card">
+
+        <img
+          src="assets/design.png"
+          alt="Graphic Design"
+        >
+
+        <div class="course-overlay">
+
+          <div>
+
+            <span>GRAPHIC DESIGN</span>
+
+            <h3>
+              Design Your Ideas
+            </h3>
+
+            <p>
+              Eksplorasi layout, typography,
+              warna, dan visual identity.
+            </p>
+
+          </div>
+
+          <a href="#">
+            →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- VIDEO -->
+      <div class="course-card">
+
+        <img
+          src="assets/video.png"
+          alt="Video and Motion"
+        >
+
+        <div class="course-overlay">
+
+          <div>
+
+            <span>VIDEO & MOTION</span>
+
+            <h3>
+              Bring Ideas to Life
+            </h3>
+
+            <p>
+              Belajar editing video,
+              animation, dan motion graphics.
+            </p>
+
+          </div>
+
+          <a href="#">
+            →
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <div class="contact-content">
+
+      <p class="section-label">
+        ✦ HUBUNGI KAMI
+      </p>
+
+      <h2>
+        Mari Terhubung
+      </h2>
+
+      <p>
+        Punya pertanyaan, saran, atau ingin tahu
+        lebih lanjut tentang kelas KREO?
+      </p>
+
+
+      <div class="contact-info">
+
+        <div class="contact-item">
+
+          <i data-feather="mail"></i>
+
+          <div>
+            <span>Email</span>
+            <p>kreo@learning.id</p>
+          </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <i data-feather="message-circle"></i>
+
+          <div>
+            <span>WhatsApp</span>
+            <p>+62 812 3456 7890</p>
+          </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <i data-feather="instagram"></i>
+
+          <div>
+            <span>Instagram</span>
+            <p>@kreo.learn</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-logo">
+      ✦ KREO
+    </div>
+
+    <p>
+      Learn · Create · Be You
+    </p>
+
+    <div class="footer-social">
+
+      <a href="#">
+        <i data-feather="instagram"></i>
+      </a>
+
+      <a href="#">
+        <i data-feather="youtube"></i>
+      </a>
+
+    </div>
+
+    <small>
+      © 2026 KREO. All rights reserved.
+    </small>
+
+  </footer>
+
+
+  <script>
+    feather.replace();
+  </script>
+
+  <script src="script.js"></script>
+
+</body>
 </html>
